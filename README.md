@@ -35,16 +35,16 @@ Welcome to the **Financial AI Analyst**! This repository contains tools and appl
 - **OpenAI:** <a href="https://openai.com/" target="_blank">OpenAI API key</a> (needed because Groq model internally uses this)
 
 ## Installation
-To utilize Financial AI Agent locally, follow these steps:
+To utilize Financial AI Analyst locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Manshi-Rathour/Financial-AI-Agent
+   git clone https://github.com/Manshi-Rathour/Financial-AI-Analyst
    ```
    
 2. **Navigate to the project directory**:
    ```bash
-   cd Financial-AI-Agent
+   cd Financial-AI-Analyst
    ```
    
 3. **Set Up a Virtual Environment**:
