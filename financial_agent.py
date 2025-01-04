@@ -41,6 +41,12 @@ multi_ai_agent = Agent(
 )
 
 # Streamlit UI
+
+st.set_page_config(
+    page_title="Financial AI Analyst",
+    page_icon="📈",
+)
+
 st.title("Financial AI Analyst 📈")
 st.markdown('<p style="color: yellow;">Ask me anything about stocks, financial news, or analyst recommendations!</p>', unsafe_allow_html=True)
 
