@@ -13,7 +13,7 @@ To utilize Financial AI Agent locally, follow these steps:
    cd Financial-AI-Agent
    ```
    
-   3. **Set Up a Virtual Environment**:
+3. **Set Up a Virtual Environment**:
    Create and activate a virtual environment for dependency management:
    ```bash
    python -m venv venv
@@ -23,13 +23,13 @@ To utilize Financial AI Agent locally, follow these steps:
    source venv/bin/activate
    ```
 
-   4. **Install Dependencies**:
+4. **Install Dependencies**:
    Install the necessary packages using the `requirements.txt` file:
    ```bash
    pip install -r requirements.txt
    ```
 
-   5. **Configure API Keys**:
+5. **Configure API Keys**:
    Set up your API keys in a `.env` file. Create a `.env` file in the root directory and add the following line:
    ```env
    PHI_API_KEY="your-phidata-api-key"
@@ -37,8 +37,8 @@ To utilize Financial AI Agent locally, follow these steps:
    OPENAI_API_KEY="your-openai-api-key"
    ```
 
-   6. **Run the Application**:
-      To run the Streamlit app, use the following command:
-      ```bash
-      streamlit run financial_agent.py
-      ```
+6. **Run the Application**:
+   To run the Streamlit app, use the following command:
+   ```bash
+   streamlit run financial_agent.py
+   ```
