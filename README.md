@@ -1,4 +1,32 @@
-# Financial-AI-Agent
+# Financial-AI-Analyst
+
+Welcome to the **Financial AI Analyst**! This repository contains tools and applications that leverage AI agents for financial analysis and web search. The project includes two main components:
+
+1. **`financial_agent.py`**: A Streamlit-based interactive application for querying financial data and news.
+2. **`playground.py`**: A chatbot playground powered by the Phidata platform for experimenting with financial and web search AI agents.
+
+## Features
+
+### `financial_agent.py`
+- A Streamlit application for financial analysis.
+- Combines **Web Search Agent** and **Finance AI Agent** for robust query handling.
+- Provides:
+  - Real-time stock prices
+  - Analyst recommendations
+  - Company financial fundamentals
+  - Latest financial news
+- Responses are enriched with formatted text, including tables for structured data.
+- Uses the **Groq** model and tools such as **DuckDuckGo** and **YFinance** for comprehensive responses.
+- Clean, user-friendly interface for financial queries.
+
+### `playground.py`
+- A chatbot playground for interacting with AI agents.
+- Includes:
+  - **Finance AI Agent** for financial queries.
+  - **Web Search Agent** for general web searches.
+- Built with the Phidata platform, using the **Groq** model for intelligent, tool-empowered responses.
+- Deployable as a standalone application via `phi.playground`.
+
 
 ## Prerequisites
 Ensure you have the following installed on your system:
@@ -45,7 +73,11 @@ To utilize Financial AI Agent locally, follow these steps:
    ```
 
 6. **Run the Application**:
-   To run the Streamlit app, use the following command:
+- For Streamlit App:
    ```bash
    streamlit run financial_agent.py
+   ```
+- For Chatbot Playground:
+   ```bash
+   python playground.py
    ```
