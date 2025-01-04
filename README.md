@@ -29,7 +29,6 @@ Welcome to the **Financial AI Analyst**! This repository contains tools and appl
 
 
 ## Prerequisites
-Ensure you have the following installed on your system:
 - **Git:** <a href="https://git-scm.com/" target="_blank">Download and Install Git</a>
 - **Groq:** <a href="https://groq.com/" target="_blank">Get free API key after login</a>
 - **Phidata:** <a href="https://www.phidata.com/" target="_blank">Get free API key after login</a>
